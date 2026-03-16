@@ -1,0 +1,17 @@
+# Ignore data files
+data/
+*.csv
+
+# Except sample files (optional)
+!data/sample/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
+
+# Power BI cache
+*.pbix.local
